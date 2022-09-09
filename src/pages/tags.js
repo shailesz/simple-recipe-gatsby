@@ -1,10 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout"
 
-export default function Home() {
+const Tags = () => {
   return (
     <Layout>
-      <div>Hello world!</div>
+      <div>Tags</div>
     </Layout>
   )
 }
+
+export default Tags
